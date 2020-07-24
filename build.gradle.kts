@@ -1,5 +1,6 @@
 plugins {
     java
+    kotlin("plugin.serialization") version "1.3.72" apply false
 }
 
 group = "org.example"
